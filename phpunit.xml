@@ -11,7 +11,7 @@
 
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php.inc">../core/highlight</directory>
+            <directory suffix=".php.inc">./core/highlight</directory>
         </whitelist>
     </filter>
 
