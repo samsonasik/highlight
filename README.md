@@ -1,3 +1,3 @@
 - composer install
-- phpunit
+- vendor/bin/phpunit
 - open build/index.html
