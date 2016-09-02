@@ -1,0 +1,3 @@
+- composer install
+- phpunit
+- open build/index.html
