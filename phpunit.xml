@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="bootstrap.php"
+         backupGlobals="false"
+         colors="true">
+
+    <testsuites>
+        <testsuite name="Hightlight Test">
+            <directory suffix="Test.php">highlight</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php.inc">../core/highlight</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="coverage-html" target="build"/>
+    </logging>
+</phpunit>
