@@ -5,7 +5,7 @@
 
     <testsuites>
         <testsuite name="Hightlight Test">
-            <directory suffix="Test.php">highlight</directory>
+            <directory suffix="Test.php">test</directory>
         </testsuite>
     </testsuites>
 
